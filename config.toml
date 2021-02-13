@@ -1,0 +1,75 @@
+baseurl         = "https://deanweber.github.io"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Dean Weber's Blog"
+  subtitle    = "Coding for a Change"
+  copyright   = "© 2020"
+
+  cover       = "uploads/thinking-gorilla.jpg"
+  description = "Ramblings and Musings of Dean Weber"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "deanweber"
+  fbName = "deanweber"
+  githubName = "deanweber"
+  linkedinName = "deanweber"
+  mediumName = ""
+
+  #logo = "uploads/ChangeAhead.jpg"
+  logo = ""
+  orgName = "Dean Weber"
+  orgWebsite = "https://www.deanweber.com"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "Dean Weber"
+  authorAvatar = "uploads/profile.jpg"
+  #authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Indianapolis, IN"
+  authorWebsite = "https://deanweber.github.io"
+  authorDescription = "Developer, Father, Autism Advocate"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 300
+
+[[menu.main]]
+  name = ".NET"
+  url = "/tags/.net/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/project/"
+  weight = 100
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/development/"
+  weight = 90
+
+[[menu.main]]
+  name = "W3 Schools"
+  url = "https://w3schools.com/"
+  weight = 80
+
+
