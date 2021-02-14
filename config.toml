@@ -1,4 +1,4 @@
-baseurl         = "https://deanweber.github.io"
+baseurl         = "/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
